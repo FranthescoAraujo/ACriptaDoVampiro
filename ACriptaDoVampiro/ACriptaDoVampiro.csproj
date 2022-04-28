@@ -1,0 +1,538 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2AC950F1-40C1-4DD4-85D1-74CE48050660}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ACriptaDoVampiro</RootNamespace>
+    <AssemblyName>ACriptaDoVampiro</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AlphaBlendTextBox">
+      <HintPath>D:\Downloads\AlphaBlendTextBox\AlphaBlendTextBox.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bag.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bag.Designer.cs">
+      <DependentUpon>bag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="creditos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="creditos.Designer.cs">
+      <DependentUpon>creditos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="escolhaPersonagem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="escolhaPersonagem.Designer.cs">
+      <DependentUpon>escolhaPersonagem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gameOver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gameOver.Designer.cs">
+      <DependentUpon>gameOver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historia07.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia07.Designer.cs">
+      <DependentUpon>historia07.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia.Designer.cs">
+      <DependentUpon>historia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historia02.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia02.Designer.cs">
+      <DependentUpon>historia02.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historia05.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia05.Designer.cs">
+      <DependentUpon>historia05.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historia03.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia03.Designer.cs">
+      <DependentUpon>historia03.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historia04.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia04.Designer.cs">
+      <DependentUpon>historia04.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historia06.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia06.Designer.cs">
+      <DependentUpon>historia06.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historia08.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia08.Designer.cs">
+      <DependentUpon>historia08.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historia09.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia09.Designer.cs">
+      <DependentUpon>historia09.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historia10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia10.Designer.cs">
+      <DependentUpon>historia10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historia11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia11.Designer.cs">
+      <DependentUpon>historia11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historia12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia12.Designer.cs">
+      <DependentUpon>historia12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historia13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia13.Designer.cs">
+      <DependentUpon>historia13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historia15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia15.Designer.cs">
+      <DependentUpon>historia15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historia16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia16.Designer.cs">
+      <DependentUpon>historia16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historia17.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia17.Designer.cs">
+      <DependentUpon>historia17.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historia18.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia18.Designer.cs">
+      <DependentUpon>historia18.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historia19.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia19.Designer.cs">
+      <DependentUpon>historia19.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historia20.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia20.Designer.cs">
+      <DependentUpon>historia20.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historia21.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia21.Designer.cs">
+      <DependentUpon>historia21.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historia22.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia22.Designer.cs">
+      <DependentUpon>historia22.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historia23.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia23.Designer.cs">
+      <DependentUpon>historia23.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historia24.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia24.Designer.cs">
+      <DependentUpon>historia24.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historia25.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia25.Designer.cs">
+      <DependentUpon>historia25.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historia26.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia26.Designer.cs">
+      <DependentUpon>historia26.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historia28.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia28.Designer.cs">
+      <DependentUpon>historia28.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historia29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia29.Designer.cs">
+      <DependentUpon>historia29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historia30.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia30.Designer.cs">
+      <DependentUpon>historia30.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historia31.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia31.Designer.cs">
+      <DependentUpon>historia31.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historia32.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia32.Designer.cs">
+      <DependentUpon>historia32.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historia33.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia33.Designer.cs">
+      <DependentUpon>historia33.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historia34.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia34.Designer.cs">
+      <DependentUpon>historia34.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historia35.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia35.Designer.cs">
+      <DependentUpon>historia35.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historia36.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia36.Designer.cs">
+      <DependentUpon>historia36.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historia37.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia37.Designer.cs">
+      <DependentUpon>historia37.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historia38.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia38.Designer.cs">
+      <DependentUpon>historia38.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historia39.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia39.Designer.cs">
+      <DependentUpon>historia39.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historia40.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia40.Designer.cs">
+      <DependentUpon>historia40.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historia41.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia41.Designer.cs">
+      <DependentUpon>historia41.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historia42.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia42.Designer.cs">
+      <DependentUpon>historia42.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historia27.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia27.Designer.cs">
+      <DependentUpon>historia27.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historia14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia14.Designer.cs">
+      <DependentUpon>historia14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historia43.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia43.Designer.cs">
+      <DependentUpon>historia43.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historia44.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia44.Designer.cs">
+      <DependentUpon>historia44.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historia71.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia71.Designer.cs">
+      <DependentUpon>historia71.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inimigo.cs" />
+    <Compile Include="menuIniciar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menuIniciar.Designer.cs">
+      <DependentUpon>menuIniciar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Personagem.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="vencer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vencer.Designer.cs">
+      <DependentUpon>vencer.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="bag.resx">
+      <DependentUpon>bag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="creditos.resx">
+      <DependentUpon>creditos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="escolhaPersonagem.resx">
+      <DependentUpon>escolhaPersonagem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gameOver.resx">
+      <DependentUpon>gameOver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia07.resx">
+      <DependentUpon>historia07.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia.resx">
+      <DependentUpon>historia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia02.resx">
+      <DependentUpon>historia02.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia05.resx">
+      <DependentUpon>historia05.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia03.resx">
+      <DependentUpon>historia03.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia04.resx">
+      <DependentUpon>historia04.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia06.resx">
+      <DependentUpon>historia06.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia08.resx">
+      <DependentUpon>historia08.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia09.resx">
+      <DependentUpon>historia09.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia10.resx">
+      <DependentUpon>historia10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia11.resx">
+      <DependentUpon>historia11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia12.resx">
+      <DependentUpon>historia12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia13.resx">
+      <DependentUpon>historia13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia15.resx">
+      <DependentUpon>historia15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia16.resx">
+      <DependentUpon>historia16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia17.resx">
+      <DependentUpon>historia17.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia18.resx">
+      <DependentUpon>historia18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia19.resx">
+      <DependentUpon>historia19.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia20.resx">
+      <DependentUpon>historia20.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia21.resx">
+      <DependentUpon>historia21.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia22.resx">
+      <DependentUpon>historia22.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia23.resx">
+      <DependentUpon>historia23.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia24.resx">
+      <DependentUpon>historia24.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia25.resx">
+      <DependentUpon>historia25.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia26.resx">
+      <DependentUpon>historia26.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia28.resx">
+      <DependentUpon>historia28.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia29.resx">
+      <DependentUpon>historia29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia30.resx">
+      <DependentUpon>historia30.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia31.resx">
+      <DependentUpon>historia31.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia32.resx">
+      <DependentUpon>historia32.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia33.resx">
+      <DependentUpon>historia33.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia34.resx">
+      <DependentUpon>historia34.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia35.resx">
+      <DependentUpon>historia35.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia36.resx">
+      <DependentUpon>historia36.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia37.resx">
+      <DependentUpon>historia37.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia38.resx">
+      <DependentUpon>historia38.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia39.resx">
+      <DependentUpon>historia39.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia40.resx">
+      <DependentUpon>historia40.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia41.resx">
+      <DependentUpon>historia41.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia42.resx">
+      <DependentUpon>historia42.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia27.resx">
+      <DependentUpon>historia27.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia14.resx">
+      <DependentUpon>historia14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia43.resx">
+      <DependentUpon>historia43.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia44.resx">
+      <DependentUpon>historia44.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia71.resx">
+      <DependentUpon>historia71.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuIniciar.resx">
+      <DependentUpon>menuIniciar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="vencer.resx">
+      <DependentUpon>vencer.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
